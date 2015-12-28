@@ -16,6 +16,7 @@
 		9D47A0D31C311C3B00DC2AB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D47A0D11C311C3B00DC2AB6 /* LaunchScreen.storyboard */; };
 		9D47A0DE1C311C3B00DC2AB6 /* LKDBHelper_SQLCipherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D47A0DD1C311C3B00DC2AB6 /* LKDBHelper_SQLCipherTests.m */; };
 		9D47A0E91C311C3B00DC2AB6 /* LKDBHelper_SQLCipherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D47A0E81C311C3B00DC2AB6 /* LKDBHelper_SQLCipherUITests.m */; };
+		9D47A0FB1C314A9900DC2AB6 /* RCDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D47A0FA1C314A9900DC2AB6 /* RCDBModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		9D47A0E41C311C3B00DC2AB6 /* LKDBHelper-SQLCipherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LKDBHelper-SQLCipherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D47A0E81C311C3B00DC2AB6 /* LKDBHelper_SQLCipherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKDBHelper_SQLCipherUITests.m; sourceTree = "<group>"; };
 		9D47A0EA1C311C3B00DC2AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D47A0F91C314A9900DC2AB6 /* RCDBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDBModel.h; sourceTree = "<group>"; };
+		9D47A0FA1C314A9900DC2AB6 /* RCDBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDBModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 		9D47A0C21C311C3B00DC2AB6 /* LKDBHelper-SQLCipher */ = {
 			isa = PBXGroup;
 			children = (
+				9D47A0F91C314A9900DC2AB6 /* RCDBModel.h */,
+				9D47A0FA1C314A9900DC2AB6 /* RCDBModel.m */,
 				9D47A0C61C311C3B00DC2AB6 /* AppDelegate.h */,
 				9D47A0C71C311C3B00DC2AB6 /* AppDelegate.m */,
 				9D47A0C91C311C3B00DC2AB6 /* ViewController.h */,
@@ -347,6 +352,7 @@
 			files = (
 				9D47A0CB1C311C3B00DC2AB6 /* ViewController.m in Sources */,
 				9D47A0C81C311C3B00DC2AB6 /* AppDelegate.m in Sources */,
+				9D47A0FB1C314A9900DC2AB6 /* RCDBModel.m in Sources */,
 				9D47A0C51C311C3B00DC2AB6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
