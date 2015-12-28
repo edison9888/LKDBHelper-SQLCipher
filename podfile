@@ -1,0 +1,4 @@
+platform :ios, '7.0'
+pod 'FMDB/SQLCipher'
+pod 'LKDBHelper', '~> 2.1.6'
+pod 'SVProgressHUD', '~> 1.1.3' 

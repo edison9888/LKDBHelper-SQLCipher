@@ -1,0 +1,30 @@
+PODS:
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/SQLCipher (2.5):
+    - FMDB/common
+    - SQLCipher
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - LKDBHelper (2.1.7):
+    - FMDB
+  - SQLCipher (3.1.0):
+    - SQLCipher/standard (= 3.1.0)
+  - SQLCipher/common (3.1.0)
+  - SQLCipher/standard (3.1.0):
+    - SQLCipher/common
+  - SVProgressHUD (1.1.3)
+
+DEPENDENCIES:
+  - FMDB/SQLCipher
+  - LKDBHelper (~> 2.1.6)
+  - SVProgressHUD (~> 1.1.3)
+
+SPEC CHECKSUMS:
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  LKDBHelper: 9f2227e47b3c9b7f177ed2f6312367f937204c14
+  SQLCipher: c44fcca49c31483c2489cfb79aa7a69407f3794a
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+
+COCOAPODS: 0.39.0
