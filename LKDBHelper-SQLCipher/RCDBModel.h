@@ -9,7 +9,11 @@
 #import "LKDBHelper.h"
 #import <Foundation/Foundation.h>
 
-@interface RCDBModel : NSObject
+@interface BaseModel : NSObject
++ (LKDBHelper *)getUsingLKDBHelper;
+@end
+
+@interface RCDBModel : BaseModel
 
 @property (assign, nonatomic)int RZID;
 @property (strong, nonatomic)NSString *name;
@@ -18,3 +22,9 @@
 
 @end
 
+@interface RCDB2Model : BaseModel
+
+@property (strong, nonatomic)NSString *adress;
+@property (strong, nonatomic)NSString *num;
+
+@end

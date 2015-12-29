@@ -8,15 +8,15 @@
 
 #import "RCDBModel.h"
 
-@implementation RCDBModel
+@implementation BaseModel
 
 + (LKDBHelper *)getUsingLKDBHelper{
     
     static LKDBHelper *db;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-       
-        NSString* dbpath = [NSHomeDirectory() stringByAppendingPathComponent:@"userDB/text.db"];
+        
+        NSString* dbpath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/text.db"];
         db = [[LKDBHelper alloc]initWithDBPath:dbpath];
         
         NSLog(@"dbpath:%@",dbpath);
@@ -25,6 +25,13 @@
     return db;
 }
 
+@end
 
+
+@implementation RCDBModel
+
+@end
+
+@implementation RCDB2Model
 
 @end
